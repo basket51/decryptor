@@ -92,5 +92,5 @@ if [ "$(id -u)" == "0" ]; then
 		tput cnorm; rm -rf archivo.hash archivo2.hash 2>/dev/null
 	fi
 else
-	echo -e "\n${redColour}[*] No soy root${endColour}\n"
+	echo -e "\n${redColour}[*] No tienes suficientes privilegios${endColour}\n"
 fi
